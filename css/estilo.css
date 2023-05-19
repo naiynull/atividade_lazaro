@@ -35,7 +35,7 @@ header nav ul {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    
+
 }
 
 header nav ul li {
@@ -54,7 +54,7 @@ header nav ul li a {
 }
 
 h1.p1 {
-    text-shadow: 0.1em 0.1em var(--black)
+    text-shadow: 0.1em 0.1em var(--black);
 }
 
 .texto {
@@ -98,23 +98,29 @@ p {
 main.tabela caption {
     margin-top: 1rem;
 }
+
 table {
     margin: auto;
     margin-bottom: 3rem;
     table-layout: fixed;
     width: 99%;
 }
-table tbody tr td.mat{
+
+table tbody tr td.mat {
     text-align: left;
 }
+
 table tbody tr td {
     text-align: center;
 }
-table tr th, table tr td {
+
+table tr th,
+table tr td {
     border: 0.1rem solid var(--black);
     padding: 1rem;
 }
-table{
+
+table {
     border-collapse: collapse;
 }
 
@@ -122,20 +128,33 @@ section {
     margin: 0.5rem;
     height: 100vh;
 }
-section ol li{
+
+section ol li {
     margin: 1rem;
 }
 
-.pergunta li a{
-    text-decoration:none;
+.pergunta li a {
+    text-decoration: none;
     color: var(--black);
 }
-#topo{
-    overflow-y:hidden;
+
+#topo {
+    overflow-y: hidden;
 }
 
-form{
+form {
     width: 200px;
+}
+.contato div{
+    width: 100%;
+}
+
+#bot {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--principal);
+    color: var(--neve);
 }
 
 footer {
