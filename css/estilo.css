@@ -102,6 +102,7 @@ table {
     margin: auto;
     margin-bottom: 3rem;
     table-layout: fixed;
+    width: 99%;
 }
 table tbody tr td.mat{
     text-align: left;
@@ -133,7 +134,9 @@ section ol li{
     overflow-y:hidden;
 }
 
-
+form{
+    width: 200px;
+}
 
 footer {
 
